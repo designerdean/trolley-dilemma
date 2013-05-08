@@ -1,0 +1,539 @@
+/* =HTML & BODY
+-------------------------------------------------- */
+
+html { 
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+  html.no-backgroundsize {
+    background-repeat: repeat;
+  }
+
+  html.home, html.references {
+    background-image: url(../img/hill.jpg);
+  }
+  
+  html.utilitarianism {
+    background-image: url(../img/bridge.jpg);
+  }
+
+  html.virtue {
+    background-image: url(../img/trolley.jpg);
+  }
+  
+  html.deontology {
+    background-image: url(../img/argonaut.jpg);
+  }
+  
+  html.divine {
+    background-image: url(../img/coit.jpg);
+  }
+  
+  html.relativism {
+    background-image: url(../img/lombard.jpg);
+  }
+
+body {
+  color: #4f422e;
+	font-family: "Courier New", Courier, mono;
+	font-size: 1.2em; /* 22px / 16px */
+	line-height: 1.3em;
+}
+
+/* =HEADINGS
+-------------------------------------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+  h1 {
+    font-family: "IM Fell DW Pica", serif;
+    font-weight: normal;
+    line-height: 1.7em;
+    margin-bottom: 1.5em;
+    text-align: center;
+  }
+  
+    h1 b {
+      background-color: rgba(255,255,255,0.95);
+      font-size: 2em;
+      line-height: 1em;
+      padding: 0 0.3em;
+      text-transform: uppercase;
+    }
+
+      .no-rgba h1 b {
+        background-color: #ffffff;
+      }
+  
+    h1 i {
+      background-color: rgba(255,255,255,0.95);
+      color: #906011;
+      text-transform: none;
+      padding: 0.1em 0.3em;
+    }
+    
+      .no-rgba h1 i {
+        background-color: #ffffff;
+      }
+    
+    h1 a, h1 a:visited {
+      color: #4f422e;
+      text-decoration: none;
+    }
+  
+  h2 span {
+    text-transform: uppercase;
+  }
+  
+  h3 {
+    font-style: italic;
+    text-transform: uppercase;
+  }
+  
+    h3 span {
+      text-transform: none;
+    }
+  
+  h4 {
+    -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+    background: rgba(144,96,17,0.3);
+    font-size: 1.2em;
+    margin: 0 2em 1em 2em;
+    padding: 0.8em;
+    text-align: center;
+  }
+  
+    .no-rgba h4 {
+      background-color: #dcceb6;
+    }
+    
+    h4 span {
+      display: block;
+      font-size: 1.5em;
+      margin-top: 0.3em;
+      text-transform: uppercase;
+    }
+
+/* =TYPOGRAPHY
+-------------------------------------------------- */
+
+.content > p {
+  margin-bottom: 1em;
+}
+
+  p i {
+    font-style: italic;
+  }
+  
+  p.answer {
+    -webkit-border-radius: 30px 30px 0 0;
+      -moz-border-radius: 30px 30px 0 0;
+      border-radius: 30px 30px 0 0;
+    background-color: #4f422e;
+    color: #ffffff;
+    min-height: 2em;
+    padding: 1em 2em 1em 5.5em;
+    position: relative;
+  }
+  
+    p.answer b {
+      font-size: 3em;
+      line-height: 1em;
+      position: absolute;
+        top: 0.2em;
+        left: 0;
+      text-align: right;
+      text-transform: uppercase;
+      width: 1.8em;
+    }
+    
+    p.retry {
+      border-top: 2px dashed #906011;
+      margin-top: 2em;
+      padding-top: 1em;
+      text-align: right;
+    }
+
+  ol, ul {
+    margin: 1em 3em 1.6em 3em;
+  }
+
+    ol {
+     	list-style-type: lower-alpha;
+    }
+    
+    ul {
+      list-style-type: disc;  
+    }
+    
+    ol li, ul li {
+      margin: 0 0 0.5em 0;
+    }
+
+blockquote {
+  -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+  background: rgba(144,96,17,0.3);
+  margin: 1em 2em 2em 2em;
+  padding: 1.5em;
+}
+
+  .no-rgba blockquote {
+    background-color: #dcceb6;
+  }
+
+cite {
+  border-bottom: 1px dashed #4f422e;
+  display: block;
+  margin: 0 0 1em 0;
+  padding: 0 0 1em 2em;
+  text-indent: -2em;
+}
+
+  cite i {
+    font-style: italic;
+  }
+
+  cite:last-child {
+    margin-bottom: 0.5em;
+  }
+
+/* =LINKS
+-------------------------------------------------- */
+
+a, a:visited {
+	color: #906011;
+}
+
+  p a.url, p a.url:visited {
+    word-break: break-all;
+  }
+ 
+a:hover { 
+
+}
+ 
+a:active, a:focus { 
+
+}
+
+/* =FIGURES
+-------------------------------------------------- */
+
+figure {
+	
+}
+
+figcaption {
+	
+}
+
+/* =TABLES
+-------------------------------------------------- */
+
+/* =FORMS
+-------------------------------------------------- */
+
+/* =HEADER
+-------------------------------------------------- */
+
+/* =NAVIGATION
+-------------------------------------------------- */
+
+/* =CONTENT
+-------------------------------------------------- */
+
+#container {
+  margin: 0 auto;
+  padding-top: 1.5em;
+  width: 90%; 
+}
+
+  #container .wrapper {
+    -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+    background: rgba(255,255,255,0.95);
+    font-weight: bold;
+    margin: 0 auto;
+    position: relative;
+    width: 80%;
+  }
+  
+    .no-rgba #container .wrapper {
+      background-color: #ffffff;
+    }
+  
+    #container .wrapper .content {
+      padding: 1.5em;
+    }
+    
+/* =TROLLEY ANIMATION
+-------------------------------------------------- */
+
+#container .wreck {
+  height: 5.5em;
+  margin: 0 auto 1.5em auto;
+  position: relative;
+  width: 80%;
+}
+
+  /* Pieces */
+  
+  #container .wreck .one {
+    float: left;
+    margin-top: 20px;
+  }
+  
+  #container .wreck .five {
+    float: right;
+    margin-top: 20px;
+  }
+  
+  #container .wreck .trolley {
+    position: absolute;
+      top: 10px;
+  }
+
+    #container .wreck.still .trolley {
+    	left: 50%;
+    	margin-left: -110px;
+    }
+  
+    #container .wreck.left .trolley {
+  		-webkit-animation: wreck-left 1s;
+        -moz-animation: wreck-left 1s;
+        -ms-animation: wreck-left 1s;
+        -o-animation: wreck-left 1s;
+        animation: wreck-left 1s;
+  		-webkit-animation-fill-mode: forwards;
+    		-moz-animation-fill-mode: forwards;
+    		-ms-animation-fill-mode: forwards;
+    		-o-animation-fill-mode: forwards;
+    		animation-fill-mode: forwards;
+   		-webkit-animation-delay: 2.5s;
+    		-moz-animation-delay: 2.5s;
+        -ms-animation-delay: 2.5s;
+        -o-animation-delay: 2.5s;
+        animation-delay: 2.5s;
+    	left: 50%;
+    	margin-left: -110px;
+    }
+
+    #container .wreck.right .trolley {
+  		-webkit-animation: wreck-right 1s;
+        -moz-animation: wreck-right 1s;
+        -ms-animation: wreck-right 1s;
+        -o-animation: wreck-right 1s;
+        animation: wreck-right 1s;
+  		-webkit-animation-fill-mode: forwards;
+    		-moz-animation-fill-mode: forwards;
+    		-ms-animation-fill-mode: forwards;
+    		-o-animation-fill-mode: forwards;
+    		animation-fill-mode: forwards;
+   		-webkit-animation-delay: 2.5s;
+    		-moz-animation-delay: 2.5s;
+        -ms-animation-delay: 2.5s;
+        -o-animation-delay: 2.5s;
+        animation-delay: 2.5s;
+    	right: 50%;
+    	margin-right: -110px;
+    }
+
+    /* Keyframes - Wreck Left */
+
+    @-webkit-keyframes wreck-left {
+      from {left: 50%; margin-left: -110px;}
+      to {left: 0; margin-left: 70px;}
+    }
+    @-moz-keyframes wreck-left {
+      from {left: 50%; margin-left: -110px;}
+      to {left: 0; margin-left: 70px;}
+    }
+    @-ms-keyframes wreck-left {
+      from {left: 50%; margin-left: -110px;}
+      to {left: 0; margin-left: 70px;}
+    }
+    @-o-keyframes wreck-left {
+      from {left: 50%; margin-left: -110px;}
+      to {left: 0; margin-left: 70px;}
+    }
+    @keyframes wreck-left {
+      from {left: 50%; margin-left: -110px;}
+      to {left: 0; margin-left: 70px;}
+    }
+  
+    /* Keyframes - Wreck Right */
+     
+    @-webkit-keyframes wreck-right {
+      from {right: 50%; margin-right: -110px;}
+      to {right: 0; margin-right: 70px;}
+    }
+    @-moz-keyframes wreck-right {
+      from {right: 50%; margin-right: -110px;}
+      to {right: 0; margin-right: 70px;}
+    }
+    @-ms-keyframes wreck-right {
+      from {right: 50%; margin-right: -110px;}
+      to {right: 0; margin-right: 70px;}
+    }
+    @-o-keyframes wreck-right {
+      from {right: 50%; margin-right: -110px;}
+      to {right: 0; margin-right: 70px;}
+    }
+    @keyframes wreck-right {
+      from {right: 50%; margin-right: -110px;}
+      to {right: 0; margin-right: 70px;}
+    }
+
+    .no-cssanimations #container .wreck.still .trolley {
+      left: 50%;
+      margin-left: -110px;
+    }
+
+    .no-cssanimations #container .wreck.left .trolley {
+      left: 0;
+      margin-left: 70px;
+    }
+
+    .no-cssanimations #container .wreck.right .trolley {
+      right: 0;
+      margin-right: 70px;
+    }
+  
+/* =FOOTER
+-------------------------------------------------- */
+
+footer {
+  font-size: 1.5em;
+  margin-top: 0.5em;
+  padding: 1.5em;
+  text-align: center;
+}
+
+  footer a, footer a:visited {
+    background-color: #4f422e;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0.3em 0.5em;
+    text-transform: uppercase;
+  }
+
+/* =PAGE - [NAME]
+-------------------------------------------------- */
+
+/* =VENDOR SPECIFIC
+-------------------------------------------------- */
+
+/* =MODERNIZR
+-------------------------------------------------- */
+
+/* =MEDIA QUERIES
+-------------------------------------------------- */
+
+@media only screen and (max-width : 768px) {
+
+  #container .wreck.left .trolley {
+		-webkit-animation: none;
+      -moz-animation: none;
+      -ms-animation: none;
+      -o-animation: none;
+      animation: none;
+  }
+  
+  #container .wreck .one, #container .wreck .five {
+    display: none;
+  }
+  
+  #container .wreck {
+    text-align: center;
+  }
+  
+  #container .wreck.still .trolley,
+  #container .wreck.left .trolley,
+  #container .wreck.right .trolley {
+    display: inline;
+    left: auto;
+    margin: 0;
+    position: static;
+    right: auto;
+  }
+
+  p.retry {
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width : 480px) {
+
+  body {
+    font-size: 1em;
+  }
+
+  #container .wrapper {
+    width: 100%;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 1.3em;
+    line-height: 1.2em;
+    text-align: center;
+  }
+
+    h1 {
+      margin-bottom: 1em;
+    }
+    
+    h3 span {
+      display: block;
+      font-size: 0.8em;
+    }
+    
+    h4 {
+      margin: 0 0 1em 0;
+    }
+    
+      h4 span {
+        font-size: 1.2em;
+      }
+    
+    blockquote {
+      margin: 0 0 1em 0;
+    }
+  
+  ol, ul {
+    margin: 1em 0 1em 2em;
+  }
+  
+  p.answer {
+    min-height: none;
+    padding: 0.5em 2em 1em 2em;
+    position: relative;
+  }
+  
+    p.answer b {
+      display: block;
+      position: static;
+        top: auto;
+        left: auto;
+      text-align: center;
+      width: auto;
+    }
+
+
+}
