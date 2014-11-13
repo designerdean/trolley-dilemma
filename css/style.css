@@ -419,18 +419,33 @@ figcaption {
 -------------------------------------------------- */
 
 footer {
-  font-size: 1.5em;
+  font-size: 1.2em;
+  line-height: 1;
   margin-top: 0.5em;
-  padding: 1.5em;
+  padding: 1em;
   text-align: center;
 }
 
-  footer a, footer a:visited {
+  footer span {
     background-color: #4f422e;
-    color: #ffffff;
-    font-weight: bold;
+    color: #fff;
     padding: 0.3em 0.5em;
+  }
+
+  footer a,
+  footer a:visited {
+    color: #fff;
+    /*font-weight: bold;*/
+    letter-spacing: 0.05em;
     text-transform: uppercase;
+  }
+
+  footer .info {
+/*    background-color: #fff;
+    display: inline-block;
+    font-size: 1em;
+    margin-top: 2em;
+    padding: 0.3em 0.5em;*/
   }
 
 /* =PAGE - [NAME]
@@ -475,6 +490,10 @@ footer {
 
   p.retry {
     text-align: center;
+  }
+
+  footer span {
+    display: block;
   }
 
 }
